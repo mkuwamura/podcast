@@ -2,7 +2,7 @@
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>ITサービスマネージャ通勤ブートキャンプ</title>
-    <link>https://mkuwamura.github.io/podcast/shows/itsm/</link>
+    <link>https://mkuwamura.github.io/podcast/</link>
     <description>ITサービスマネージャ（SM）試験対策ポッドキャスト。通勤時間（朝60分）で合否を分ける午後Ⅰ・午後Ⅱの判断力・思考フレームワークを対談形式でマスターします。</description>
     <language>ja</language>
     <itunes:author>mkuwamura</itunes:author>

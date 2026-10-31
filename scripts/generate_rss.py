@@ -65,7 +65,7 @@ def build_podcast_feed(config: ShowConfig, episodes: List[EpisodeInfo], cover_fi
     channel = ET.SubElement(rss, "channel")
 
     # チャンネル基本情報
-    show_page_url = f"{config.base_url}/shows/{config.show_id}/"
+    show_page_url = f"{config.base_url}/"
     cover_image_url = f"{config.base_url}/shows/{config.show_id}/{cover_filename}"
 
     ET.SubElement(channel, "title").text = config.title

@@ -54,9 +54,11 @@ def build_podcast_feed(config: ShowConfig, episodes: List[EpisodeInfo], cover_fi
     """Apple Podcasts規格のRSS 2.0 XML文字列を生成"""
     ITUNES_NS = "http://www.itunes.com/dtds/podcast-1.0.dtd"
     CONTENT_NS = "http://purl.org/rss/1.0/modules/content/"
+    PODCAST_NS = "https://podcastindex.org/namespace/1.0"
 
     ET.register_namespace("itunes", ITUNES_NS)
     ET.register_namespace("content", CONTENT_NS)
+    ET.register_namespace("podcast", PODCAST_NS)
 
     rss = ET.Element("rss", {
         "version": "2.0",
@@ -92,13 +94,20 @@ def build_podcast_feed(config: ShowConfig, episodes: List[EpisodeInfo], cover_fi
         ET.SubElement(item, "title").text = ep.title
         ET.SubElement(item, "description").text = ep.description
 
-        # HTML形式のチャプター（content:encoded）を追加してApple Podcastsでタップ可能にする
-        # 改行を <br/> に変換し、タイムスタンプを強調
+        # HTML形式のチャプター（content:encoded）
         html_desc = ep.description.replace("\r\n", "\n").replace("\n", "<br/>\n")
         content_encoded = ET.SubElement(item, f"{{{CONTENT_NS}}}encoded")
         content_encoded.text = html_desc
 
-        ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = f"{config.show_id}-{ep.filename}"
+        # Podcasting 2.0 規格のチャプターJSON紐付け
+        chapters_url = f"{config.base_url}/shows/{config.show_id}/chapters.json"
+        ET.SubElement(item, f"{{{PODCAST_NS}}}chapters", {
+            "url": chapters_url,
+            "type": "application/json+chapters"
+        })
+
+        # キャッシュバスティング用のGUID（変更時にiPhone側へ強制再取得させる）
+        ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = f"{config.show_id}-{ep.filename}-v2"
         ET.SubElement(item, "pubDate").text = ep.pub_date_rfc822
 
         mime_type = get_audio_mime_type(ep.filename)

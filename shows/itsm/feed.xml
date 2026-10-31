@@ -50,5 +50,40 @@ ITサービスマネージャ（SM）試験の合否を分ける重要論点を�
       <itunes:duration>14:45</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
+    <item>
+      <title>【チャプター対応】02 重大インシデント初期対応と問題管理</title>
+      <description>【第2回】重大インシデント初期対応と問題管理
+
+ITサービスマネージャ（SM）試験における「インシデント管理」と「問題管理」の連携、マネージャの初動判断を解説します。
+
+【チャプターリスト】
+00:00 オープニング・初動の鉄則
+03:00 暫定復旧とエスカレーション判断
+07:00 問題管理（根本原因究明）への引き継ぎ
+11:00 午後問題・論文でのマネージャ評価基準
+
+【対象試験区分】
+情報処理技術者試験 ITサービスマネージャ（高度区分）
+午前Ⅱ・午後Ⅰ・午後Ⅱ対策</description>
+      <content:encoded>【第2回】重大インシデント初期対応と問題管理&lt;br/&gt;
+&lt;br/&gt;
+ITサービスマネージャ（SM）試験における「インシデント管理」と「問題管理」の連携、マネージャの初動判断を解説します。&lt;br/&gt;
+&lt;br/&gt;
+【チャプターリスト】&lt;br/&gt;
+00:00 オープニング・初動の鉄則&lt;br/&gt;
+03:00 暫定復旧とエスカレーション判断&lt;br/&gt;
+07:00 問題管理（根本原因究明）への引き継ぎ&lt;br/&gt;
+11:00 午後問題・論文でのマネージャ評価基準&lt;br/&gt;
+&lt;br/&gt;
+【対象試験区分】&lt;br/&gt;
+情報処理技術者試験 ITサービスマネージャ（高度区分）&lt;br/&gt;
+午前Ⅱ・午後Ⅰ・午後Ⅱ対策</content:encoded>
+      <podcast:chapters url="https://mkuwamura.github.io/podcast/shows/itsm/chapters.json" type="application/json+chapters"/>
+      <guid isPermaLink="false">itsm-02_重大インシデント初期対応と問題管理.m4a-v2</guid>
+      <pubDate>Sat, 31 Oct 2026 06:46:31 +0000</pubDate>
+      <enclosure url="https://mkuwamura.github.io/podcast/shows/itsm/episodes/02_%E9%87%8D%E5%A4%A7%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%87%E3%83%B3%E3%83%88%E5%88%9D%E6%9C%9F%E5%AF%BE%E5%BF%9C%E3%81%A8%E5%95%8F%E9%A1%8C%E7%AE%A1%E7%90%86.m4a" length="28482502" type="audio/x-m4a"/>
+      <itunes:duration>14:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>

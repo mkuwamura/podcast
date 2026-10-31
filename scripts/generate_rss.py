@@ -86,11 +86,18 @@ def build_podcast_feed(config: ShowConfig, episodes: List[EpisodeInfo], cover_fi
     ET.SubElement(channel, f"{{{ITUNES_NS}}}image", {"href": cover_image_url})
     ET.SubElement(channel, f"{{{ITUNES_NS}}}category", {"text": config.category})
 
-    # 各エピソード
+        # 各エピソード
     for ep in episodes:
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = ep.title
         ET.SubElement(item, "description").text = ep.description
+
+        # HTML形式のチャプター（content:encoded）を追加してApple Podcastsでタップ可能にする
+        # 改行を <br/> に変換し、タイムスタンプを強調
+        html_desc = ep.description.replace("\r\n", "\n").replace("\n", "<br/>\n")
+        content_encoded = ET.SubElement(item, f"{{{CONTENT_NS}}}encoded")
+        content_encoded.text = html_desc
+
         ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = f"{config.show_id}-{ep.filename}"
         ET.SubElement(item, "pubDate").text = ep.pub_date_rfc822
 

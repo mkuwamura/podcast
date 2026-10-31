@@ -197,7 +197,7 @@ def scan_and_generate_all(root_dir: Path, base_url: str):
                 desc = f"{audio_file.stem}\n\nITサービスマネージャ試験対策ディスカッション音声です。"
 
             # タイトル（拡張子除き）
-            title = audio_file.stem.replace("_", " ")
+            title = f"【チャプター対応】{audio_file.stem.replace('_', ' ')}"
 
             import urllib.parse
             encoded_show = urllib.parse.quote(show_dir.name)

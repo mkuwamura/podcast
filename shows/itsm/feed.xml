@@ -16,7 +16,92 @@
     <itunes:image href="https://mkuwamura.github.io/podcast/shows/itsm/cover.png"/>
     <itunes:category text="Technology"/>
     <item>
-      <title>【チャプター対応】ITサービスマネージャ試験の採点講評と現場の決断</title>
+      <title>高度午前ⅠのIoT計算からCRYPTREC暗号まで</title>
+      <description>高度午前ⅠのIoT計算からCRYPTREC暗号まで
+
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</description>
+      <content:encoded>高度午前ⅠのIoT計算からCRYPTREC暗号まで&lt;br/&gt;
+&lt;br/&gt;
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。&lt;br/&gt;
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</content:encoded>
+      <podcast:chapters url="https://mkuwamura.github.io/podcast/shows/itsm/chapters.json" type="application/json+chapters"/>
+      <guid isPermaLink="false">itsm-高度午前ⅠのIoT計算からCRYPTREC暗号まで.m4a-v2</guid>
+      <pubDate>Sun, 01 Nov 2026 02:29:46 +0000</pubDate>
+      <enclosure url="https://mkuwamura.github.io/podcast/shows/itsm/episodes/%E9%AB%98%E5%BA%A6%E5%8D%88%E5%89%8D%E2%85%A0%E3%81%AEIoT%E8%A8%88%E7%AE%97%E3%81%8B%E3%82%89CRYPTREC%E6%9A%97%E5%8F%B7%E3%81%BE%E3%81%A7.m4a" length="31763634" type="audio/x-m4a"/>
+      <itunes:duration>16:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>二分法からLRUまで直感を裏切る基礎理論</title>
+      <description>二分法からLRUまで直感を裏切る基礎理論
+
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</description>
+      <content:encoded>二分法からLRUまで直感を裏切る基礎理論&lt;br/&gt;
+&lt;br/&gt;
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。&lt;br/&gt;
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</content:encoded>
+      <podcast:chapters url="https://mkuwamura.github.io/podcast/shows/itsm/chapters.json" type="application/json+chapters"/>
+      <guid isPermaLink="false">itsm-二分法からLRUまで直感を裏切る基礎理論.m4a-v2</guid>
+      <pubDate>Sun, 01 Nov 2026 02:29:40 +0000</pubDate>
+      <enclosure url="https://mkuwamura.github.io/podcast/shows/itsm/episodes/%E4%BA%8C%E5%88%86%E6%B3%95%E3%81%8B%E3%82%89LRU%E3%81%BE%E3%81%A7%E7%9B%B4%E6%84%9F%E3%82%92%E8%A3%8F%E5%88%87%E3%82%8B%E5%9F%BA%E7%A4%8E%E7%90%86%E8%AB%96.m4a" length="31636637" type="audio/x-m4a"/>
+      <itunes:duration>16:05</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>システムと人を止めない多層防御</title>
+      <description>システムと人を止めない多層防御
+
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</description>
+      <content:encoded>システムと人を止めない多層防御&lt;br/&gt;
+&lt;br/&gt;
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。&lt;br/&gt;
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</content:encoded>
+      <podcast:chapters url="https://mkuwamura.github.io/podcast/shows/itsm/chapters.json" type="application/json+chapters"/>
+      <guid isPermaLink="false">itsm-システムと人を止めない多層防御.m4a-v2</guid>
+      <pubDate>Sun, 01 Nov 2026 02:30:18 +0000</pubDate>
+      <enclosure url="https://mkuwamura.github.io/podcast/shows/itsm/episodes/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%A8%E4%BA%BA%E3%82%92%E6%AD%A2%E3%82%81%E3%81%AA%E3%81%84%E5%A4%9A%E5%B1%A4%E9%98%B2%E5%BE%A1.m4a" length="45067286" type="audio/x-m4a"/>
+      <itunes:duration>22:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>クリティカルパスとRTOで解く午前Ⅱ問6から10</title>
+      <description>クリティカルパスとRTOで解く午前Ⅱ問6から10
+
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</description>
+      <content:encoded>クリティカルパスとRTOで解く午前Ⅱ問6から10&lt;br/&gt;
+&lt;br/&gt;
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。&lt;br/&gt;
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</content:encoded>
+      <podcast:chapters url="https://mkuwamura.github.io/podcast/shows/itsm/chapters.json" type="application/json+chapters"/>
+      <guid isPermaLink="false">itsm-クリティカルパスとRTOで解く午前Ⅱ問6から10.m4a-v2</guid>
+      <pubDate>Sun, 01 Nov 2026 02:30:34 +0000</pubDate>
+      <enclosure url="https://mkuwamura.github.io/podcast/shows/itsm/episodes/%E3%82%AF%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%91%E3%82%B9%E3%81%A8RTO%E3%81%A7%E8%A7%A3%E3%81%8F%E5%8D%88%E5%89%8D%E2%85%A1%E5%95%8F6%E3%81%8B%E3%82%8910.m4a" length="32040901" type="audio/x-m4a"/>
+      <itunes:duration>16:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>SBOMからスクラムまでの高度午前Ⅰ問13から17</title>
+      <description>SBOMからスクラムまでの高度午前Ⅰ問13から17
+
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</description>
+      <content:encoded>SBOMからスクラムまでの高度午前Ⅰ問13から17&lt;br/&gt;
+&lt;br/&gt;
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。&lt;br/&gt;
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</content:encoded>
+      <podcast:chapters url="https://mkuwamura.github.io/podcast/shows/itsm/chapters.json" type="application/json+chapters"/>
+      <guid isPermaLink="false">itsm-SBOMからスクラムまでの高度午前Ⅰ問13から17.m4a-v2</guid>
+      <pubDate>Sun, 01 Nov 2026 02:29:54 +0000</pubDate>
+      <enclosure url="https://mkuwamura.github.io/podcast/shows/itsm/episodes/SBOM%E3%81%8B%E3%82%89%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%A0%E3%81%BE%E3%81%A7%E3%81%AE%E9%AB%98%E5%BA%A6%E5%8D%88%E5%89%8D%E2%85%A0%E5%95%8F13%E3%81%8B%E3%82%8917.m4a" length="32641005" type="audio/x-m4a"/>
+      <itunes:duration>16:36</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>ITサービスマネージャ試験の採点講評と現場の決断</title>
       <description>【第1回】ITサービスマネージャ試験の採点講評と今後の課題
 
 ITサービスマネージャ（SM）試験の合否を分ける重要論点をディスカッション形式で解説します。
@@ -47,13 +132,81 @@ ITサービスマネージャ（SM）試験の合否を分ける重要論点を�
 ※本音声は、IPA公式の過去問題および採点講評をもとにNotebookLM（AI）を活用して生成した学習用ディスカッションコンテンツです。</content:encoded>
       <podcast:chapters url="https://mkuwamura.github.io/podcast/shows/itsm/chapters.json" type="application/json+chapters"/>
       <guid isPermaLink="false">itsm-ITサービスマネージャ試験の採点講評と現場の決断.m4a-v2</guid>
-      <pubDate>Sat, 31 Oct 2026 06:29:29 +0000</pubDate>
-      <enclosure url="https://mkuwamura.github.io/podcast/shows/itsm/episodes/IT%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E8%A9%A6%E9%A8%93%E3%81%AE%E6%8E%A1%E7%82%B9%E8%AC%9B%E8%A9%95%E3%81%A8%E7%8F%BE%E5%A0%B4%E3%81%AE%E6%B1%BA%E6%96%AD.m4a" length="28482497" type="audio/x-m4a"/>
-      <itunes:duration>14:45</itunes:duration>
+      <pubDate>Sat, 31 Oct 2026 05:24:26 +0000</pubDate>
+      <enclosure url="https://mkuwamura.github.io/podcast/shows/itsm/episodes/IT%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E8%A9%A6%E9%A8%93%E3%81%AE%E6%8E%A1%E7%82%B9%E8%AC%9B%E8%A9%95%E3%81%A8%E7%8F%BE%E5%A0%B4%E3%81%AE%E6%B1%BA%E6%96%AD.m4a" length="28491192" type="audio/x-m4a"/>
+      <itunes:duration>14:29</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>【チャプター対応】02 重大インシデント初期対応と問題管理</title>
+      <title>ITサービスマネージャ午前Ⅱ問1から5完全攻略</title>
+      <description>ITサービスマネージャ午前Ⅱ問1から5完全攻略
+
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</description>
+      <content:encoded>ITサービスマネージャ午前Ⅱ問1から5完全攻略&lt;br/&gt;
+&lt;br/&gt;
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。&lt;br/&gt;
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</content:encoded>
+      <podcast:chapters url="https://mkuwamura.github.io/podcast/shows/itsm/chapters.json" type="application/json+chapters"/>
+      <guid isPermaLink="false">itsm-ITサービスマネージャ午前Ⅱ問1から5完全攻略.m4a-v2</guid>
+      <pubDate>Sun, 01 Nov 2026 02:30:25 +0000</pubDate>
+      <enclosure url="https://mkuwamura.github.io/podcast/shows/itsm/episodes/IT%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E5%8D%88%E5%89%8D%E2%85%A1%E5%95%8F1%E3%81%8B%E3%82%895%E5%AE%8C%E5%85%A8%E6%94%BB%E7%95%A5.m4a" length="30924478" type="audio/x-m4a"/>
+      <itunes:duration>15:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>ITサービスマネージャ午前Ⅱ問11から15</title>
+      <description>ITサービスマネージャ午前Ⅱ問11から15
+
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</description>
+      <content:encoded>ITサービスマネージャ午前Ⅱ問11から15&lt;br/&gt;
+&lt;br/&gt;
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。&lt;br/&gt;
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</content:encoded>
+      <podcast:chapters url="https://mkuwamura.github.io/podcast/shows/itsm/chapters.json" type="application/json+chapters"/>
+      <guid isPermaLink="false">itsm-ITサービスマネージャ午前Ⅱ問11から15.m4a-v2</guid>
+      <pubDate>Sun, 01 Nov 2026 02:30:30 +0000</pubDate>
+      <enclosure url="https://mkuwamura.github.io/podcast/shows/itsm/episodes/IT%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E5%8D%88%E5%89%8D%E2%85%A1%E5%95%8F11%E3%81%8B%E3%82%8915.m4a" length="31784551" type="audio/x-m4a"/>
+      <itunes:duration>16:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>ITサービスマネージャ午前II問16〜20完全攻略</title>
+      <description>ITサービスマネージャ午前II問16〜20完全攻略
+
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</description>
+      <content:encoded>ITサービスマネージャ午前II問16〜20完全攻略&lt;br/&gt;
+&lt;br/&gt;
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。&lt;br/&gt;
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</content:encoded>
+      <podcast:chapters url="https://mkuwamura.github.io/podcast/shows/itsm/chapters.json" type="application/json+chapters"/>
+      <guid isPermaLink="false">itsm-ITサービスマネージャ午前II問16〜20完全攻略.m4a-v2</guid>
+      <pubDate>Sun, 01 Nov 2026 02:30:14 +0000</pubDate>
+      <enclosure url="https://mkuwamura.github.io/podcast/shows/itsm/episodes/IT%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E5%8D%88%E5%89%8DII%E5%95%8F16%E3%80%9C20%E5%AE%8C%E5%85%A8%E6%94%BB%E7%95%A5.m4a" length="39427298" type="audio/x-m4a"/>
+      <itunes:duration>20:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>DX認定から生成AIの著作権問題まで</title>
+      <description>DX認定から生成AIの著作権問題まで
+
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</description>
+      <content:encoded>DX認定から生成AIの著作権問題まで&lt;br/&gt;
+&lt;br/&gt;
+ITサービスマネージャ（ITSM）試験対策ポッドキャストです。&lt;br/&gt;
+※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。</content:encoded>
+      <podcast:chapters url="https://mkuwamura.github.io/podcast/shows/itsm/chapters.json" type="application/json+chapters"/>
+      <guid isPermaLink="false">itsm-DX認定から生成AIの著作権問題まで.m4a-v2</guid>
+      <pubDate>Sun, 01 Nov 2026 02:33:08 +0000</pubDate>
+      <enclosure url="https://mkuwamura.github.io/podcast/shows/itsm/episodes/DX%E8%AA%8D%E5%AE%9A%E3%81%8B%E3%82%89%E7%94%9F%E6%88%90AI%E3%81%AE%E8%91%97%E4%BD%9C%E6%A8%A9%E5%95%8F%E9%A1%8C%E3%81%BE%E3%81%A7.m4a" length="47567765" type="audio/x-m4a"/>
+      <itunes:duration>24:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>02 重大インシデント初期対応と問題管理</title>
       <description>【第2回】重大インシデント初期対応と問題管理
 
 ITサービスマネージャ（SM）試験における「インシデント管理」と「問題管理」の連携、マネージャの初動判断を解説します。
@@ -86,7 +239,7 @@ ITサービスマネージャ（SM）試験における「インシデント管�
       <guid isPermaLink="false">itsm-02_重大インシデント初期対応と問題管理.m4a-v2</guid>
       <pubDate>Sat, 31 Oct 2026 06:46:31 +0000</pubDate>
       <enclosure url="https://mkuwamura.github.io/podcast/shows/itsm/episodes/02_%E9%87%8D%E5%A4%A7%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%87%E3%83%B3%E3%83%88%E5%88%9D%E6%9C%9F%E5%AF%BE%E5%BF%9C%E3%81%A8%E5%95%8F%E9%A1%8C%E7%AE%A1%E7%90%86.m4a" length="28482502" type="audio/x-m4a"/>
-      <itunes:duration>14:45</itunes:duration>
+      <itunes:duration>14:29</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

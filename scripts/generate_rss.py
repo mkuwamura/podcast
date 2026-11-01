@@ -127,18 +127,30 @@ def build_podcast_feed(config: ShowConfig, episodes: List[EpisodeInfo], cover_fi
 
 
 def parse_duration_from_audio(audio_path: Path) -> str:
-    """音声ファイルから再生時間を取得（mutagenがあれば高精度解析、無ければデフォルト）"""
+    """音声ファイルから再生時間を取得"""
+    # Windows Shell COMを利用して正確なメディア尺を取得
     try:
-        from mutagen import File as MutagenFile
-        audio = MutagenFile(str(audio_path))
-        if audio and audio.info and hasattr(audio.info, "length"):
-            total_seconds = int(audio.info.length)
-            mins = total_seconds // 60
-            secs = total_seconds % 60
-            return f"{mins:02d}:{secs:02d}"
+        import win32com.client
+        shell = win32com.client.Dispatch("Shell.Application")
+        folder = shell.Namespace(str(audio_path.parent.resolve()))
+        item = folder.ParseName(audio_path.name)
+        duration_str = folder.GetDetailsOf(item, 27)  # "00:16:22"
+        if duration_str:
+            parts = duration_str.split(":")
+            if len(parts) == 3:
+                # "00:16:22" -> "16:22" (時が00なら分:秒、1時間以上なら時:分:秒)
+                if parts[0] == "00":
+                    return f"{parts[1]}:{parts[2]}"
+                return duration_str
     except Exception:
         pass
-    return "15:00"  # フォールバック概算
+
+    # フォールバック: ファイルサイズ（約256kbps）から概算
+    size_bytes = audio_path.stat().st_size
+    seconds = int(size_bytes / (32 * 1024))  # 約32KB/sec
+    mins = seconds // 60
+    secs = seconds % 60
+    return f"{mins:02d}:{secs:02d}"
 
 
 def scan_and_generate_all(root_dir: Path, base_url: str):
@@ -194,10 +206,10 @@ def scan_and_generate_all(root_dir: Path, base_url: str):
             if meta_txt.exists():
                 desc = meta_txt.read_text(encoding="utf-8").strip()
             else:
-                desc = f"{audio_file.stem}\n\nITサービスマネージャ試験対策ディスカッション音声です。"
+                desc = f"{audio_file.stem}\n\nITサービスマネージャ（ITSM）試験対策ポッドキャストです。\n※本音声は、IPA公式の過去問題をもとにNotebookLM（AI）を活用して生成した学習用コンテンツです。"
 
-            # タイトル（拡張子除き）
-            title = f"【チャプター対応】{audio_file.stem.replace('_', ' ')}"
+            # タイトル（拡張子除き、アンダースコアをスペースに置換）
+            title = audio_file.stem.replace('_', ' ')
 
             import urllib.parse
             encoded_show = urllib.parse.quote(show_dir.name)
